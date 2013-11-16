@@ -12,7 +12,7 @@ module.exports = function (done) {
       done(err);
     } else {
       var config = {
-        datastore: result.datastore || 'http://localhost:5984/resumaker'
+        datastore: result.datastore || 'http://localhost:5984/resumonster'
       };
 
       fs.writeFile(util.config_path, JSON.stringify(util.merge(config)), done); 

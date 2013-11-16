@@ -4,7 +4,7 @@ function getUserHome() {
   return process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE;
 }
 
-var config_path = path.join(getUserHome(), '.resumaker.json');
+var config_path = path.join(getUserHome(), '.resumonster.json');
 
 function get_config() {
   try {
