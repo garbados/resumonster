@@ -62,15 +62,17 @@ How many networks can you use? Here's a list:
 
 The first time Resumonster attempts to use a social network, it'll ask for the credentials it needs to do so, and then store them in `~/.resumonster.json`. Here's how to get those credentials:
 
-* Twitter
-* Facebook
-* LinkedIn
-* GitHub
-* Tumblr
+* Twitter: go [here](https://dev.twitter.com/apps), sign in, then click "Create new application".
+* Facebook: Coming soon!
+* LinkedIn: Coming soon!
+* GitHub: Coming soon!
+* Tumblr: Coming soon!
 
 ## Testing
 
-Coming soon!
+Coming soon! Until then, enjoy some fruit, dawg:
+
+![Fruitdog](http://eggchair.maxthayer.org/img/fruit_dawg.jpg)
 
 ## License
 
