@@ -10,34 +10,29 @@ If that doesn't work, try prepending `sudo`.
 
 ## Usage
 
-Let's see what Oreo's most popular tweets are from the last [TODO] months.
+Let's see Oreo's most popular tweets.
 
     resumake --twitter oreo
 
 That will give us something like this:
 
-    [ [ { username: 'oreo',
-      created_at: 'Mon Feb 04 01:48:18 +0000 2013',
+    [ [ { created_at: 'Mon Feb 04 01:48:18 +0000 2013',
       text: 'Power out? No problem. http://t.co/dnQ7pOgC',
       favorite_count: 6351,
       retweet_count: 15891 },
-    { username: 'oreo',
-      created_at: 'Tue Jun 26 00:02:00 +0000 2012',
+    { created_at: 'Tue Jun 26 00:02:00 +0000 2012',
       text: 'Celebrate your pride for love! #dailytwist http://t.co/ryqS3HyK',
       favorite_count: 1058,
       retweet_count: 3117 },
-    { username: 'oreo',
-      created_at: 'Tue Oct 02 19:23:41 +0000 2012',
+    { created_at: 'Tue Oct 02 19:23:41 +0000 2012',
       text: 'Up high. Down low. Around the back. Oreo. #dailytwist #highfive http://t.co/VATHVgCR',
       favorite_count: 651,
       retweet_count: 1241 },
-    { username: 'oreo',
-      created_at: 'Mon Jul 22 19:42:48 +0000 2013',
+    { created_at: 'Mon Jul 22 19:42:48 +0000 2013',
       text: 'Prepare the royal bottle service! http://t.co/Nlks2kT7Sw',
       favorite_count: 428,
       retweet_count: 1032 },
-    { username: 'oreo',
-      created_at: 'Mon Aug 06 00:00:02 +0000 2012',
+    { created_at: 'Mon Aug 06 00:00:02 +0000 2012',
       text: 'We come in peace. With Oreo cookies. #dailytwist http://t.co/8pWggzzF',
       favorite_count: 212,
       retweet_count: 860 } ] ]

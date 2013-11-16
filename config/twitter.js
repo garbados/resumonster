@@ -14,7 +14,9 @@ module.exports = function (done) {
     if (err) {
       done(err);
     } else {
-      var config = {
+      var config = util.get_config();
+
+      config.twitter = {
         consumer: {
           key: result['consumer key'],
           secret: result['consumer secret']
@@ -25,7 +27,9 @@ module.exports = function (done) {
         }
       };
 
-      fs.writeFile(util.config_path, JSON.stringify(util.merge(config)), done); 
+
+
+      fs.writeFile(util.config_path, JSON.stringify(config), done); 
     }
   });
 };

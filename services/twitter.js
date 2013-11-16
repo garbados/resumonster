@@ -160,7 +160,13 @@ module.exports = function (pouch, config) {
             tweets = tweets.sort(function(a, b) {
               return (b.retweet_count + b.favorite_count) - (a.retweet_count + a.favorite_count);
             }).slice(0,5).map(function (tweet) {
-              ['_id', '_rev', '_conflicts', 'type'].forEach(function (field) {
+              [
+                '_id', 
+                '_rev', 
+                '_conflicts', 
+                'type',
+                'username'
+              ].forEach(function (field) {
                 delete tweet[field];
               });
 

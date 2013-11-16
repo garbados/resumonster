@@ -6,9 +6,13 @@ module.exports = function(service, done) {
   
   if (!config[service]) {
     require('./' + service)(function (err) {
-      done(err);
-
-      config = util.get_config();
+      if (err) {
+        done(err);
+      } else {
+        config = util.get_config();
+        
+        done(null, config[service]);
+      }
     });
   } else {
     done(null, config[service]);
