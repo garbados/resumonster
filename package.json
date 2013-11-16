@@ -1,0 +1,23 @@
+{
+  "name": "oreo",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "resumake": "./bin/index.js"
+  },
+  "author": "Max Thayer <garbados@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fbgraph": "~0.2.8",
+    "twit": "~1.1.11",
+    "nano": "~4.2.1",
+    "async": "~0.2.9",
+    "pouchdb": "0.0.14",
+    "optimist": "~0.6.0",
+    "prompt": "~0.2.11"
+  }
+}
