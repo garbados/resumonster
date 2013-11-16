@@ -6,9 +6,7 @@ var config = require('./config'),
 
 function sync (datastore, done) {
   var opts = {
-    create_target: true,
-    onChange: console.log,
-    onError: console.log
+    create_target: true
   };
 
   function do_sync (func, done) {

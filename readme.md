@@ -37,9 +37,9 @@ That will give us something like this:
       favorite_count: 212,
       retweet_count: 860 } ] ]
 
-Resumonster stores these results locally using [PouchDB](http://pouchdb.com/), so that you can build up history over time. Whenever you run `resumake`, it collects data only since the last run.
+Resumonster stores these results locally using [PouchDB](http://pouchdb.com/), so that you can build up history over time. Whenever you run `resumake`, it collects data only since the last run. To sync that data with a remote CouchDB or [Cloudant](https://cloudant.com/) instance, run `resumake sync`.
 
-Oh, let's try their Facebook, too:
+Oh, let's try Oreo's Facebook, too:
 
     resumake -t oreo --facebook oreo
 
